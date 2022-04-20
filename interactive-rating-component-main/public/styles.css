@@ -18,7 +18,7 @@
   align-items: center;
   height: 100vh;
   max-width: 100vw;
-  background-color: #141519;
+  background-color: hsl(216, 12%, 8%);
 }
 
 
@@ -39,7 +39,7 @@
   border-radius: 50%;
   width: 45px;
   height: 45px;
-  background-color: #262E37;
+  background-color: hsl(213, 19%, 18%);
 }
 
 .interactive-rating-header {
@@ -70,7 +70,7 @@
   height: 45px;
   width: 45px;
   border-radius: 50%;
-  background-color: #262E37;
+  background-color: hsl(213, 19%, 18%);
   color: hsl(216, 12%, 54%);
   border: none;
   cursor: pointer;
@@ -82,7 +82,7 @@
 
 .submit-button {
   background-color: hsl(25, 97%, 53%);
-  color: white;
+  color: hsl(0, 0%, 100%);
   border: none;
   border-radius: 25px;
   width: 100%;
@@ -90,14 +90,19 @@
   cursor: pointer;
 }
 
+.active {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(217, 12%, 63%);
+}
+
 /* ----------PSEUDO CLASSES---------- */
 
 .rating-button:hover {
   background-color: hsl(25, 97%, 53%);
-  color: white;
+  color: hsl(0, 0%, 100%);
 }
 
 .submit-button:hover {
-  background-color: white;
+  background-color: hsl(0, 0%, 100%);
   color: hsl(25, 97%, 53%);
 }
