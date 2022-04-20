@@ -89,6 +89,20 @@
   cursor: pointer;
 }
 
+/* ----------PSEUDO CLASSES---------- */
+
+.rating-button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+/* ----------MEDIA QUERIES---------- */
+
 @media only screen and (min-width: 375px) {
   .interactive-rating-container {
     width: 340px;
