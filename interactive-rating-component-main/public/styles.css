@@ -26,6 +26,7 @@
 
 .interactive-rating-container {
   width: 90vw;
+  max-width: 360px;
   background-color: #202730;
   border-radius: 20px;
   padding: 25px;
@@ -99,12 +100,4 @@
 .submit-button:hover {
   background-color: white;
   color: hsl(25, 97%, 53%);
-}
-
-/* ----------MEDIA QUERIES---------- */
-
-@media only screen and (min-width: 375px) {
-  .interactive-rating-container {
-    width: 340px;
-  }
 }
