@@ -1,0 +1,90 @@
+/* ----------FONTS---------- */
+
+.overpass-400 {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+}
+
+.overpass-700 {
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+}
+
+/* ----------APP COMPONENT---------- */
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #141519;
+}
+
+
+/* ----------INTERACTIVE RATING COMPONENT---------- */
+
+.interactive-rating-container {
+  width: 90vw;
+  background-color: #202730;
+  border-radius: 20px;
+  padding: 25px;
+}
+
+.star-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-color: #262E37;
+}
+
+.interactive-rating-header {
+  color: hsl(0, 0%, 100%);
+  font-size: 26px;
+  padding-top: 20px;
+}
+
+.interactive-rating-paragraph {
+  color: hsl(216, 12%, 54%);
+  font-size: 14px;
+  padding-top: 10px;
+  line-height: 22px;
+}
+
+.rating-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.rating-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: #262E37;
+  color: hsl(216, 12%, 54%);
+  border: none;
+  cursor: pointer;
+}
+
+.submit-button-container {
+  padding-top: 20px;
+}
+
+.submit-button {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  width: 100%;
+  height: 45px;
+  cursor: pointer;
+}

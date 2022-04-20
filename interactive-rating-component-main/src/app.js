@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
+import InteractiveRating from "./components/interactive-rating";
 
 export default function App() {
   return (
-    <h1>Hi</h1>
+    <div className="app">
+      <InteractiveRating />
+    </div>
   )
 }
