@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-export default function InteractiveRating() {
-  const [selectedRating, setSelectedRating] = useState(null);
+export default function InteractiveRating(props) {
+  const { selectedRating, setSelectedRating, setIsErrorMessageVisible } = props;
 
   const createArray = length => [
     ...Array(length)
@@ -13,12 +13,13 @@ export default function InteractiveRating() {
     ))
   };
 
-  const selectRating = () => {
-
-  }
-
   const submitRating = () => {
     event.preventDefault();
+
+    if (selectedRating === null) {
+      setIsErrorMessageVisible(true);
+      console.log('Please select a rating before submitting.');
+    }
   }
 
   console.log(selectedRating);
